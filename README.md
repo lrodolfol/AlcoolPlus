@@ -1,4 +1,4 @@
-# AlcoolPlus
+# AlcoolPlus *APROVADO 🚀
 Teste prático. Sistema para fornecimento de álcool em gel para clientes sob controle de administradores.
 
 ## Sobre o Sistema
