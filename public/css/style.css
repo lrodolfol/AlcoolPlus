@@ -1,0 +1,265 @@
+body {
+    font-family: Nunito, sans-serif;
+    background-color: #E3E3E3;
+}
+
+h1, h2, h3 {
+    font-family: Nunito, sans-serif;
+    color: #000000;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191970;
+}
+nav > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Yellowtail, serif;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration:  none;
+    color: #FFFFFF;        
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /*background-image: url("../images/Alcool.png");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    color: #000000;
+}
+header img {
+	width: 20%;
+}
+
+.btnEnviar {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #191970;
+    font-size: .9em;
+    border-radius: 3px;
+}
+.btnEnviar:hover {
+    background-color: #1f1f8c;
+}
+
+.boasVindas {
+    text-align: center;
+}
+
+
+/*TELAS DE CADASTROS*/
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.tituloTela {
+    text-align: center; 
+}
+
+.tituloTela img {
+    width: 20%;
+}
+
+.tituloTelaLogin {
+	display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+
+}
+
+.tituloTelaLogin img {
+    width: 20%;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/*
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}*/
+.campoForm {
+    
+    width: 100%;
+    margin-top: 6px;
+}
+.campoFormLogin {
+    
+    width: 100%;
+    margin-top: 6px;
+}
+.campoFormPedido {
+    width: 100%;
+    margin-top: 6px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.radio {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.checkbox{
+  height: 25px;
+  width: 25px;
+  background-color: #eee;	
+}
+
+
+/*PAINEIS*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.aviso {
+	display: flex;
+    flex-direction: column;
+    align-items: center; 	
+}
+
+
+/*RODAPÉ*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    bottom:0;
+    width:100%;
+}
+footer a {
+    text-decoration: none;
+}
+
+/*
+.navMenuInicial {
+    margin-top: 5%;
+    text-align: center;
+}
+.navMenuInicial nav a {
+    background-color: #858CFF;
+    border-radius: 10px;
+}
+.navMenuInicial a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0% 5% 0% 5%;
+}
+.navMenuInicial a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}*/
+
+@media screen and (min-width: 768px){
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    header{
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+
+    .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+
+    }
+}
