@@ -1,5 +1,10 @@
 # AlcoolPlus *APROVADO 🚀
-Teste prático. Sistema para fornecimento de álcool em gel para clientes sob controle de administradores.
+
+Teste prático solicitado durante processo seletivo da INATEL para programador PHP <br>
+O projeto foi concluido após 4 dias desde o inicio ou em torno de 10hr seguidas de codding <br>
+após feedback positivo da equipe tecnica optei por não aceitar a oferta devido outras propostas de trabalho. <br>
+
+Sistema para fornecimento de álcool em gel para clientes sob controle de administradores.
 
 ## Sobre o Sistema
 Alcool+ é um pequeno sistema onde os clientes cadastrados poderam solicitar Alcool em gel para seus determinados fornecedores. 
@@ -8,7 +13,7 @@ Cada fornecedor poderá se cadastrar e publicar novos produtos sobre o controle 
 ## Instalação
 - Para o funcionamento imediato do sistema, basta descompactar os arquivos na pasta correta do servidor web.
 Também será necessário realizar a importação do arquivo alcoolPlus.sql no banco de dados. 
--Para conexão no banco de dados o usuário e senha estão definidos como padrão.
+Para conexão no banco de dados o usuário e senha estão definidos como padrão.
 usuario: 'root'
 senha: ''
 
